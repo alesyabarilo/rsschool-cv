@@ -5,6 +5,7 @@
 - **E-mail:** bariloalesya@gmail.com
 - **LinkedIn:** [Alesya Astraumava](https://www.linkedin.com/in/%D0%B0%D0%BB%D0%B5%D1%81%D1%8F-%D0%BE%D1%81%D1%82%D1%80%D0%BE%D1%83%D0%BC%D0%BE%D0%B2%D0%B0-331381254/)
 - **GitHub:** [alesyabarilo](https://github.com/alesyabarilo)
+
 # About me
 My main goal is to gain strong knowledge in the field of front-end development. 
 
@@ -19,7 +20,9 @@ I always try to develop and learn something new.
 - Java (basic knowledge)
 - SQL (basic knowledge)
 - Editors: VSCode, Intellij IDEA
+
 # Code Example
+
 ```
 function factorial(n) {
   return (n != 1) ? n * factorial(n - 1) : 1;
@@ -27,10 +30,13 @@ function factorial(n) {
 
 alert( factorial(10) );
 ```
+
 # Education
 - **Belarusian National Technical University**
   - Bachelor degree, Customs business
+
 # Experience
 - **Intertransavto** - Customs clearance specialist (Jan 2020 - Jul 2022)
+
 # English
 **B1**
