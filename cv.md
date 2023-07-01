@@ -27,3 +27,10 @@ function factorial(n) {
 
 alert( factorial(10) );
 ```
+# Education
+- **Belarusian National Technical University**
+  - Bachelor degree, Customs business
+# Experience
+- **Intertransavto** - Customs clearance specialist (Jan 2020 - Jul 2022)
+# English
+**B1**
