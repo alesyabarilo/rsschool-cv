@@ -181,7 +181,8 @@ li.experience-item {
 }
 
 .university-image,
-.customs-image {
+.customs-image,
+.english-image {
   margin-right: 5px;
   width: 30px;
   height: 30px;
@@ -195,6 +196,13 @@ li.experience-item {
 
 .experience-subitem {
   margin-right: 400px;
+}
+
+.english-level {
+  display: flex;
+  margin: 20px 0px 20px 10px;
+  font-weight: bold;
+  font-size: 22px;
 }
 
 .bold {
