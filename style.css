@@ -43,7 +43,8 @@ p.profile-text {
 }
 
 li.contact-item,
-li.education-item {
+li.education-item,
+li.experience-item {
   display: flex;
   flex-wrap: wrap;
   margin-top: 10px;
@@ -165,25 +166,38 @@ li.education-item {
   font-style: italic;
 }
 
-.education-list {
+.education-list,
+.experience-list {
   list-style: none;
   margin-left: 10px;
   padding: 0px;
 }
 
-.education-item {
+.education-item,
+.experience-item {
   list-style: none;
   padding: 0px 5px;
   line-height: 30px;
 }
 
-.university-image {
+.university-image,
+.customs-image {
   margin-right: 5px;
   width: 30px;
   height: 30px;
 }
 
-.education-sublist {
+.education-sublist,
+.experience-sublist {
   list-style: none;
   font-style: italic;
+}
+
+.experience-subitem {
+  margin-right: 400px;
+}
+
+.bold {
+  font-weight: bold;
+  font-size: 22px;
 }
