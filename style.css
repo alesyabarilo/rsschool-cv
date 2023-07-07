@@ -138,3 +138,14 @@ li.contact-item {
   text-decoration: none;
   color: #000000;
 }
+
+.skill-list {
+  margin-left: 10px;
+  padding: 0px;
+
+}
+
+.skill-item {
+  padding: 0px 5px;
+  list-style-type: square;
+}
