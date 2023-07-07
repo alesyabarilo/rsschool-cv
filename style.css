@@ -149,3 +149,8 @@ li.contact-item {
   padding: 0px 5px;
   list-style-type: square;
 }
+
+.code-content {
+  background-color: rgba(256, 256, 256, 0.6);
+  color: #000000;
+}
