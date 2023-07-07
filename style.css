@@ -42,8 +42,10 @@ p.profile-text {
   font-style: italic;
 }
 
-li.contact-item {
+li.contact-item,
+li.education-item {
   display: flex;
+  flex-wrap: wrap;
   margin-top: 10px;
 }
 
@@ -153,4 +155,35 @@ li.contact-item {
 .code-content {
   background-color: rgba(256, 256, 256, 0.6);
   color: #000000;
+}
+
+.date {
+  padding: 3px 10px;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  background-color: rgba(256, 256, 256, 0.8);
+  font-style: italic;
+}
+
+.education-list {
+  list-style: none;
+  margin-left: 10px;
+  padding: 0px;
+}
+
+.education-item {
+  list-style: none;
+  padding: 0px 5px;
+  line-height: 30px;
+}
+
+.university-image {
+  margin-right: 5px;
+  width: 30px;
+  height: 30px;
+}
+
+.education-sublist {
+  list-style: none;
+  font-style: italic;
 }
