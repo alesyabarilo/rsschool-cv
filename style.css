@@ -30,6 +30,22 @@ body {
   font-size: 18px;
 }
 
+h1.section-title {
+  font-size: 40px;
+}
+
+p.profile-text {
+  padding: 10px 10px 10px 50px;
+  background: left url(assets/programmer.png) no-repeat;
+  font-size: 25px;
+  font-style: italic;
+}
+
+li.contact-item {
+  display: flex;
+  margin-top: 10px;
+}
+
 .container {
   max-width: 1440px;
   margin: 0 auto;
@@ -74,13 +90,23 @@ body {
   flex-wrap: wrap;
 }
 
+.main-container:nth-child(n) {
+  gap: 3%;
+}
+
 .section {
   width: 50%;
+  padding: 15px 0px;
+  border-bottom: 1px solid #ffffff;
+}
+
+.section:nth-child(2n) {
+  width: 47%;
 }
 
 .profile-section {
   width: 100%;
-  border-bottom: 2px solid #ffffff;
+  border-bottom: 6px solid #ffffff;
 }
 
 .profile-image {
@@ -89,26 +115,6 @@ body {
 
 .profile-info {
   padding: 50px 0px;
-}
-
-h1.section-title {
-  font-size: 40px;
-}
-
-p.profile-text {
-  padding: 10px 10px 10px 50px;
-  background: left url(assets/programmer.png) no-repeat;
-  font-size: 25px;
-  font-style: italic;
-}
-
-li.contact-item {
-  display: flex;
-  margin-top: 10px;
-}
-
-hr {
-  border: none;
 }
 
 .contacts-list {
