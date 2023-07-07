@@ -4,6 +4,12 @@
   font-weight: 400;
 }
 
+@media (max-width: 768px) {
+  .section {
+    width: 100%;
+  }
+}
+
 * {
   box-sizing: border-box;
 }
@@ -21,11 +27,21 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Roboto', sans-serif;
+  font-size: 18px;
 }
 
 .container {
   max-width: 1440px;
   margin: 0 auto;
+}
+
+.section-title {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.profile-section {
+  display: flex;
 }
 
 .nav-list {
@@ -53,9 +69,46 @@ body {
   color:#ffffff;
 }
 
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section {
+  width: 50%;
+}
+
+.profile-section {
+  width: 100%;
+  border-bottom: 2px solid #ffffff;
+}
+
+.profile-image {
+  margin: 10px 215px 28px 215px;
+}
+
+.profile-info {
+  padding: 50px 0px;
+}
+
+h1.section-title {
+  font-size: 40px;
+}
+
+p.profile-text {
+  padding: 10px 10px 10px 50px;
+  background: left url(assets/programmer.png) no-repeat;
+  font-size: 25px;
+  font-style: italic;
+}
+
 li.contact-item {
   display: flex;
   margin-top: 10px;
+}
+
+hr {
+  border: none;
 }
 
 .contacts-list {
