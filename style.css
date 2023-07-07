@@ -16,7 +16,7 @@
 
 html {
   scroll-behavior: smooth; 
-  background-color: #c8a2c8;
+  background-color: rgb(206, 146, 206);
 }
 
 body {
@@ -92,6 +92,7 @@ li.experience-item {
 .main-container {
   display: flex;
   flex-wrap: wrap;
+  background-color: rgb(231, 193, 231);
 }
 
 .main-container:nth-child(n) {
