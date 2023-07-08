@@ -81,7 +81,6 @@ li.experience-item {
 .contact-link:hover {
   border-radius: 5%;
   background-color: rgb(206, 146, 206);
-  color:#000000;
 }
 
 .main-container {
@@ -207,8 +206,47 @@ li.experience-item {
   font-size: 22px;
 }
 
+.footer-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10px;
+  list-style: none;
+  background-color: #ffffff;
+}
+
+.footer-link {
+  transition: .3s;
+  padding: 0 20px;
+  line-height: 60px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  color: #000000;
+}
+
+.logo {
+  display: flex;
+}
+
+.footer-link:hover {
+  border-radius: 5%;
+  background-color: rgb(206, 146, 206);
+}
+
+.logo-image {
+  width: 100px;
+}
+
 @media (max-width: 1150px) {
   .section {
     width: 100%;
+  }
+}
+
+@media (max-width: 890px) {
+  .nav-list {
+    display: flex;
+    flex-direction: column;
   }
 }
